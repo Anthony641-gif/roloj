@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 1.6;
+   background-color:#A37E3C ;
+    color: #A37E3C
+}
+
+header{
+  background-color: #006039; 
+    color: #A37E3C;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #A37E3C;
+    font-weight: bold;
+}
+
+nav ul li a:hover{
+    text-decoration: underline;
+  color: #006039;
+}
+
+.section{
+    padding: 20px;
+    background-color: #006039;
+    margin: 20px 0;
+}
+
+.section h2{
+    color: #006039;
+}
+
+.section img{
+    max-width: 100%;
+    height: auto;
+
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label{
+    margin-bottom: 5px;
+
+}
+
+form input, form textarea{
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #A37E3C;
+    border-radius: 4px;
+}
+
+form button {
+    padding: 10px;
+background-color: #A37E3C;
+color: #006039;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+form button:hover{
+    background-color: w;
+}
+
+
+footer{
+    background-color: whitesmoke;
+    color: aliceblue;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+
+}
